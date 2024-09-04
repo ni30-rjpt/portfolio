@@ -40,18 +40,18 @@ function showProjects(projects) {
   let projectsHTML = "";
   projects.forEach((project) => {
     projectsHTML += `
-        <div class="grid-item ${category}">
+        <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
-        <h3>${name}</h3>
+        <h3>${project.name}</h3>
         </div>
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ var Tawk_API = Tawk_API || {},
   var s1 = document.createElement("script"),
     s0 = document.getElementsByTagName("script")[0];
   s1.async = true;
-  s1.src='https://embed.tawk.to/66d80ae750c10f7a00a3cc36/1i6tul6gt';
+  s1.src = "https://embed.tawk.to/66d80ae750c10f7a00a3cc36/1i6tul6gt";
   s1.charset = "UTF-8";
   s1.setAttribute("crossorigin", "*");
   s0.parentNode.insertBefore(s1, s0);
