@@ -1,0 +1,72 @@
+[
+  {
+    "name": "E-Commerce Website",
+    "desc": "Using Mern Stack with authentication system , For backend node js mongoDB, this project inspared to flipkart.",
+    "image": "ecommerce",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Face Detection and Recognition System",
+    "desc": "Website develop in python programmin using algorithm haar cascade and LBPH. and library used opencv, face recognition , Dlib. It is realtime face recognition system.",
+    "image": "recognition",
+    "category": "python",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Gallry App",
+    "desc": "Native android app built using Kotline, XML and Volley dependencies. Provides Galleryt .",
+    "image": "Gallery",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Live Chat",
+    "desc": "Native android app built using Kotline, XML and Volley dependencies. Provides Real time Chat.",
+    "image": "Livechat",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Plant Disease Detection system",
+    "desc": "Plant disease detection system using python and library using tensorflow, keras, numpy. It is realtime detection system",
+    "image": "detection",
+    "category": "python",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Weather Forecast",
+    "desc": "Native android app built using Kotline, XML and Volley dependencies. Provides Weather forecast .",
+    "image": "weather",
+    "category": "android",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Portfolio",
+    "desc": "Website based portfolio development using html css and js.",
+    "image": "portfolio",
+    "category": "htmlcssjs",
+    "links": {
+      "view": "",
+      "code": "#"
+    }
+  }
+]
